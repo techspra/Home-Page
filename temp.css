@@ -1,0 +1,41 @@
+.carousel-caption{
+    z-index:10;
+    font-size-adjust: auto;
+}
+.carousel-inner > .item > img{
+    
+    min-width: 100%;
+}
+.carousel-inner > .item{
+    height: 500px;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand{
+    color: #333333;
+}
+.navbar-inverse .navbar-text{
+    color: #333333;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #333333;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #333333;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+@media(min-width: 768px){
+    .carousel-inner > .item{
+    height: auto;
+}
+    .carousel-caption{
+        font-size-adjust: auto;
+    }
+}
